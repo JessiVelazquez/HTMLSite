@@ -1,0 +1,1 @@
+document.write('<h3>mmmm... look at these lovely restaurants:</h3>')

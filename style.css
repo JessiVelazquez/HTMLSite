@@ -37,6 +37,10 @@ h2 {
     color: rgb(9, 14, 8);
 }
 
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 14, 8);
+}
 .class1 {
     height: 300px;
     border: 2px solid black;
