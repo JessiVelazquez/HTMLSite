@@ -47,12 +47,12 @@ function userHungry() {
 
 function favDessert() {
     let userAnswer = prompt('What is the best dessert? ');
-    let correctAnswer = "pie" && 'Pie';
-    while(userAnswer != correctAnswer){
+    let correctAnswer = "pie";
+    while(userAnswer.toLowerCase() != correctAnswer){
         alert('Nuh uh uh... that is not the best dessert... try again!')
         userAnswer = prompt('What is the best dessert?')
     }
-    if(userAnswer == correctAnswer){
+    if(userAnswer.toLowerCase() == correctAnswer){
         document.write('<h3>Correct! Pie is the best dessert.</h3>');
     }
 }
