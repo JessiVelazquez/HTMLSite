@@ -32,7 +32,7 @@ if (userChoice == 'steak') {
 }
 
 function printStatement() {
-    document.write('<h3>mmmm... look at these lovely restaurants:</h3>')
+    document.write('<h3>mmmm... look at these excellent restaurants:</h3>')
 }
 
 function userHungry() {
